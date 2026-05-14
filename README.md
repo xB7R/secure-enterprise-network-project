@@ -1,3 +1,26 @@
+<div align="center">
+
+# Secure Enterprise Network Infrastructure Project
+
+![Course](https://img.shields.io/badge/COURSE-Defense--in--Depth%20Networking%20Security-blue)
+![Project](https://img.shields.io/badge/PROJECT-University%20Group%20Project-purple)
+![VLAN](https://img.shields.io/badge/VLAN-Segmentation-orange)
+![DMVPN](https://img.shields.io/badge/DMVPN-IPsec-green)
+![IDS/IPS](https://img.shields.io/badge/Cisco%20IOS-IDS%2FIPS-red)
+![ASA](https://img.shields.io/badge/ASA-Firewall%20HA-yellow)
+![AAA](https://img.shields.io/badge/AAA%2FRBAC-Access%20Control-lightgrey)
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-Network%20Security-blue)
+![Environment](https://img.shields.io/badge/Environment-Academic%20Lab-orange)
+
+</div>
+
+> A university group project for the **Defense-in-Depth Networking Security** course.  
+> This project demonstrates a secure enterprise network using VLAN segmentation, L2/L3 security hardening, DMVPN with IPsec, Cisco IOS IPS, ASA firewall high availability, NAT, ACLs, and AAA/RBAC controls.
+
+---
+
 # Secure Enterprise Network Infrastructure Project
 
 A university group project for the **Defense-in-Depth Networking Security** course. This project demonstrates the design and implementation of a secure enterprise network infrastructure using Defense-in-Depth principles.
