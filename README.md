@@ -154,9 +154,13 @@ Each VLAN works as a separate broadcast domain. This reduces unnecessary traffic
 
 The Management VLAN was separated from normal user VLANs to protect administrative access and management services.
 
-![VLAN Database](images/vlan-database.png)
+<p align="center">
+  <img src="images/vlan-database.png" alt="VLAN Database" width="100%">
+</p>
 
-![SVI Configuration](images/svi-configuration.png)
+<p align="center">
+  <img src="images/svi-configuration.png" alt="SVI and Gateway Verification" width="100%">
+</p>
 
 ---
 
@@ -222,9 +226,13 @@ The Management VLAN was separated from normal user VLANs to protect administrati
 
 These controls protect both the access layer and routing/control plane.
 
-![DHCP Snooping](images/dhcp-snooping.png)
+<p align="center">
+  <img src="images/dhcp-snooping.png" alt="DHCP Snooping Validation" width="100%">
+</p>
 
-![DAI Validation](images/dai-validation.png)
+<p align="center">
+  <img src="images/dai-validation.png" alt="Dynamic ARP Inspection Validation" width="100%">
+</p>
 
 ---
 
@@ -300,7 +308,9 @@ The DMVPN design provides encrypted branch communication, dynamic spoke registra
   </tr>
 </table>
 
-![DMVPN Validation](images/dmvpn-validation.png)
+<p align="center">
+  <img src="images/dmvpn-validation.png" alt="DMVPN and NHRP Validation" width="100%">
+</p>
 
 ---
 
@@ -343,7 +353,9 @@ A Cisco IOS IPS device was deployed inline to inspect traffic and detect malicio
 
 The IPS validation included scan activity, alert generation, and packet drop evidence.
 
-![IPS Alerts](images/ips-alerts.png)
+<p align="center">
+  <img src="images/ips-alerts.png" alt="IPS Alerts and Packet Drop Evidence" width="100%">
+</p>
 
 ---
 
@@ -396,7 +408,11 @@ Cisco ASA firewalls were configured using Active/Active failover and multi-conte
 
 Failover was tested by shutting down the active firewall and confirming that the standby firewall took over successfully.
 
-![ASA Failover](images/asa-failover.png)
+<p align="center">
+  <img src="images/asa-failover.png" alt="ASA Firewall Failover Validation" width="100%">
+</p>
+
+The failover validation confirms that ASA failover was enabled and that the firewall contexts and monitored interfaces were visible during testing. This was used to verify high availability behavior and firewall role status.
 
 ---
 
@@ -429,7 +445,19 @@ AAA and RBAC were implemented to control administrative access using centralized
 
 This ensures that each user only receives the permissions required for their role.
 
-![AAA RBAC Validation](images/aaa-rbac-validation.png)
+<p align="center">
+  <img src="images/aaa-rbac-validation1.png" alt="UserView RBAC Validation" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/aaa-rbac-validation2.png" alt="AuditView RBAC Validation" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/aaa-rbac-validation3.png" alt="AdminView RBAC Validation" width="100%">
+</p>
+
+The validation screenshots show that each role received the correct access level. The UserView and AuditView accounts were restricted from entering configuration mode, while the AdminView account was allowed to enter configuration mode successfully. This confirms that RBAC was enforced correctly.
 
 ---
 
@@ -526,5 +554,7 @@ secure-enterprise-network-project/
     ├── dmvpn-validation.png
     ├── ips-alerts.png
     ├── asa-failover.png
-    └── aaa-rbac-validation.png
+    ├── aaa-rbac-validation1.png
+    ├── aaa-rbac-validation2.png
+    └── aaa-rbac-validation3.png
 ```
