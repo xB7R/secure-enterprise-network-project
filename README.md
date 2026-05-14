@@ -2,12 +2,6 @@
 
 <br>
 
-<div align="center">
-
-<br>
-
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0078D4&height=180&section=header&text=Secure%20Enterprise%20Network&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Defense-in-Depth%20Networking%20Security&descAlignY=55&descSize=18"/>
 
 <br>
@@ -20,18 +14,21 @@
   <img src="https://img.shields.io/badge/AAA%2FRBAC-Access_Control-003B73?style=for-the-badge"/>
 </p>
 
-</div>
-
-<br><br>
-
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Status-COMPLETED-2ecc71?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Project-University_Group_Project-e94560?style=flat-square&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Course-Defense_in_Depth_Networking_Security-0078D4?style=flat-square&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Environment-Academic_Lab-6B4CFF?style=flat-square&labelColor=0d1117"/>
 </p>
 
 <br>
+
+<p>
+  <i>Secure enterprise network infrastructure implementing VLAN segmentation, DMVPN/IPsec, Cisco IOS IPS, ASA firewall high availability, AAA/RBAC, NAT, and ACL security controls.</i>
+</p>
+
+<br>
+
+</div>
 
 > *A university group project for Defense-in-Depth Networking Security.*
 > *VLAN Segmentation · DMVPN/IPsec · Cisco IOS IPS · ASA Firewall HA · AAA/RBAC · NAT/ACLs.*
