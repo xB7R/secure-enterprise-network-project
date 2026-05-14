@@ -23,3 +23,7 @@ The internal network was divided into separate VLANs for different departments. 
 | VLAN 30 | HR         | 10.30.1.0/26  |
 | VLAN 99 | Management | 10.99.1.0/24  |
 +---------+------------+---------------+
+
+Inter-VLAN communication was handled through the multilayer switches, allowing routing between departments to be controlled from the Layer 3 boundary instead of having a flat network.
+
+The Management VLAN was separated from normal user VLANs to protect administrative access and management services.
