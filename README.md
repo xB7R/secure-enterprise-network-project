@@ -6,10 +6,17 @@
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=0078D4&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORKING+SECURITY">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=0078D4&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORKING+SECURITY" alt="Secure Enterprise Network Infrastructure Project"/>
-</picture>
+<div align="center">
+
+# 🛡️ Secure Enterprise Network Infrastructure
+
+### Defense-in-Depth Networking Security
+
+![Status](https://img.shields.io/badge/Status-Completed-2ecc71?style=for-the-badge)
+![Course](https://img.shields.io/badge/Course-Defense--in--Depth%20Networking%20Security-0078D4?style=for-the-badge)
+![Environment](https://img.shields.io/badge/Environment-Academic%20Lab-6B4CFF?style=for-the-badge)
+
+</div>
 
 <br><br>
 
