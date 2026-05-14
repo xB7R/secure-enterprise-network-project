@@ -30,13 +30,6 @@
 
 </div>
 
-> *A university group project for Defense-in-Depth Networking Security.*
-> *VLAN Segmentation · DMVPN/IPsec · Cisco IOS IPS · ASA Firewall HA · AAA/RBAC · NAT/ACLs.*
-
-<br>
-
-</div>
-
 ---
 
 ## Table of Contents
