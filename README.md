@@ -1,33 +1,46 @@
 <div align="center">
 
-# Secure Enterprise Network Infrastructure Project
+<br>
 
-![Course](https://img.shields.io/badge/COURSE-Defense--in--Depth%20Networking%20Security-blue)
-![Project](https://img.shields.io/badge/PROJECT-University%20Group%20Project-purple)
-![VLAN](https://img.shields.io/badge/VLAN-Segmentation-orange)
-![DMVPN](https://img.shields.io/badge/DMVPN-IPsec-green)
-![IDS/IPS](https://img.shields.io/badge/Cisco%20IOS-IDS%2FIPS-red)
-![ASA](https://img.shields.io/badge/ASA-Firewall%20HA-yellow)
-![AAA](https://img.shields.io/badge/AAA%2FRBAC-Access%20Control-lightgrey)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=E94560&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORK+SECURITY;UNIVERSITY+GROUP+PROJECT">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=E94560&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORK+SECURITY;UNIVERSITY+GROUP+PROJECT" alt="Secure Enterprise Network Infrastructure Project"/>
+</picture>
 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Focus](https://img.shields.io/badge/Focus-Network%20Security-blue)
-![Environment](https://img.shields.io/badge/Environment-Academic%20Lab-orange)
+<br><br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VLAN-Segmentation-E57000?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/DMVPN-IPsec-212121?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Cisco_IOS-IPS-0078D4?style=for-the-badge&logo=cisco&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ASA-Firewall_HA-6B4CFF?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NAT%2FACLs-Security_Rules-EF6C00?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AAA%2FRBAC-Access_Control-557C94?style=for-the-badge&logoColor=white"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Network_Segmentation-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/L2%2FL3_Hardening-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/DMVPN-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/IDS%2FIPS-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Firewall_HA-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-COMPLETED-2ecc71?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Project-University_Group_Project-e94560?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Course-Defense_in_Depth_Networking_Security-0078D4?style=flat-square&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Environment-Academic_Lab-6B4CFF?style=flat-square&labelColor=0d1117"/>
+</p>
+
+<br>
+
+> *A university group project for Defense-in-Depth Networking Security.*
+> *VLAN Segmentation · DMVPN/IPsec · Cisco IOS IPS · ASA Firewall HA · AAA/RBAC · NAT/ACLs.*
+
+<br>
 
 </div>
-
-> A university group project for the **Defense-in-Depth Networking Security** course.  
-> This project demonstrates a secure enterprise network using VLAN segmentation, L2/L3 security hardening, DMVPN with IPsec, Cisco IOS IPS, ASA firewall high availability, NAT, ACLs, and AAA/RBAC controls.
-
----
-
-# Secure Enterprise Network Infrastructure Project
-
-A university group project for the **Defense-in-Depth Networking Security** course. This project demonstrates the design and implementation of a secure enterprise network infrastructure using Defense-in-Depth principles.
-
-The project includes VLAN segmentation, Layer 2 and Layer 3 security hardening, secure inter-branch connectivity using DMVPN with IPsec, Cisco IOS IPS deployment, ASA firewall high availability, NAT, ACLs, and AAA/RBAC access control.
-
-
 
 ---
 
