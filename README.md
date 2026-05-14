@@ -17,7 +17,6 @@ A secure enterprise network infrastructure project based on Defense-in-Depth pri
 - [AAA and RBAC](#aaa-and-rbac)
 - [Validation Summary](#validation-summary)
 - [Repository Structure](#repository-structure)
-- [Disclaimer](#disclaimer)
 
 ---
 
