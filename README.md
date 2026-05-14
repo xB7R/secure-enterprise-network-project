@@ -23,14 +23,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Network_Segmentation-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/L2%2FL3_Hardening-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/DMVPN-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/IDS%2FIPS-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Firewall_HA-COMPLETE-2ecc71?style=flat-square&labelColor=0d1117"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Status-COMPLETED-2ecc71?style=flat-square&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Project-University_Group_Project-e94560?style=flat-square&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Course-Defense_in_Depth_Networking_Security-0078D4?style=flat-square&labelColor=0d1117"/>
