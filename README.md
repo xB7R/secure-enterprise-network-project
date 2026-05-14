@@ -66,15 +66,40 @@ The following topology shows the full enterprise network design, including the H
 
 ## Core Objectives
 
-| Objective | Description |
-|---|---|
-| Network Segmentation | Separate departments using VLANs for Marketing, Sales, HR, and Management |
-| L2/L3 Security Hardening | Protect the network from spoofing, MITM attacks, rogue devices, and broadcast storms |
-| Secure Branch Connectivity | Use dual-hub DMVPN with IPsec to connect HQ and branch offices |
-| IDS/IPS Protection | Deploy Cisco IOS IPS inline to detect and prevent malicious traffic |
-| Firewall Enforcement | Use ASA firewalls with Active/Active failover, NAT, ACLs, and security zones |
-| AAA/RBAC Access Control | Implement centralized authentication and role-based access using RADIUS and parser views |
-| Validation Testing | Verify the security controls using practical testing and screenshots |
+<table width="100%">
+  <tr>
+    <th>Objective</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><b>Network Segmentation</b></td>
+    <td>Separate departments using VLANs for Marketing, Sales, HR, and Management.</td>
+  </tr>
+  <tr>
+    <td><b>L2/L3 Security Hardening</b></td>
+    <td>Protect the network from spoofing, MITM attacks, rogue devices, and broadcast storms.</td>
+  </tr>
+  <tr>
+    <td><b>Secure Branch Connectivity</b></td>
+    <td>Use dual-hub DMVPN with IPsec to connect HQ and branch offices.</td>
+  </tr>
+  <tr>
+    <td><b>IDS/IPS Protection</b></td>
+    <td>Deploy Cisco IOS IPS inline to detect and prevent malicious traffic.</td>
+  </tr>
+  <tr>
+    <td><b>Firewall Enforcement</b></td>
+    <td>Use ASA firewalls with Active/Active failover, NAT, ACLs, and security zones.</td>
+  </tr>
+  <tr>
+    <td><b>AAA/RBAC Access Control</b></td>
+    <td>Implement centralized authentication and role-based access using RADIUS and parser views.</td>
+  </tr>
+  <tr>
+    <td><b>Validation Testing</b></td>
+    <td>Verify the security controls using practical testing and screenshots.</td>
+  </tr>
+</table>
 
 ---
 
@@ -82,12 +107,38 @@ The following topology shows the full enterprise network design, including the H
 
 The internal network was divided into separate VLANs for different departments.
 
-| VLAN | Department | Network |
-|---|---|---|
-| VLAN 10 | Marketing | 10.10.1.0/26 |
-| VLAN 20 | Sales | 10.20.1.0/26 |
-| VLAN 30 | HR | 10.30.1.0/26 |
-| VLAN 99 | Management | 10.99.1.0/24 |
+<table width="100%">
+  <tr>
+    <th>VLAN</th>
+    <th>Department</th>
+    <th>Network</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><b>VLAN 10</b></td>
+    <td>Marketing</td>
+    <td><code>10.10.1.0/26</code></td>
+    <td>Marketing department user segment.</td>
+  </tr>
+  <tr>
+    <td><b>VLAN 20</b></td>
+    <td>Sales</td>
+    <td><code>10.20.1.0/26</code></td>
+    <td>Sales department user segment.</td>
+  </tr>
+  <tr>
+    <td><b>VLAN 30</b></td>
+    <td>HR</td>
+    <td><code>10.30.1.0/26</code></td>
+    <td>Human Resources user segment.</td>
+  </tr>
+  <tr>
+    <td><b>VLAN 99</b></td>
+    <td>Management</td>
+    <td><code>10.99.1.0/24</code></td>
+    <td>Management and administrative services.</td>
+  </tr>
+</table>
 
 Each VLAN works as a separate broadcast domain. This reduces unnecessary traffic, improves security, and limits lateral movement between departments.
 
@@ -101,18 +152,52 @@ The Management VLAN was separated from normal user VLANs to protect administrati
 
 ## Security Controls Implemented
 
-| Control | Purpose |
-|---|---|
-| Port Security | Restricts unauthorized devices from connecting to access ports |
-| DHCP Snooping | Blocks rogue DHCP servers and helps prevent DHCP starvation attacks |
-| Dynamic ARP Inspection | Prevents ARP spoofing and Man-in-the-Middle attacks |
-| BPDU Guard | Disables access ports that receive unexpected BPDU packets |
-| Root Guard | Prevents rogue switches from becoming the STP root bridge |
-| Loop Guard | Protects against switching loops caused by link failures |
-| Rate Limiting | Reduces DHCP flooding and Layer 2 DoS attempts |
-| RFC1918 ACLs | Blocks spoofed private IP traffic from untrusted interfaces |
-| OSPF Authentication | Protects routing updates from tampering and route injection |
-| SSH v2 | Secures remote management access |
+<table width="100%">
+  <tr>
+    <th>Control</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><b>Port Security</b></td>
+    <td>Restricts unauthorized devices from connecting to access ports.</td>
+  </tr>
+  <tr>
+    <td><b>DHCP Snooping</b></td>
+    <td>Blocks rogue DHCP servers and helps prevent DHCP starvation attacks.</td>
+  </tr>
+  <tr>
+    <td><b>Dynamic ARP Inspection</b></td>
+    <td>Prevents ARP spoofing and Man-in-the-Middle attacks.</td>
+  </tr>
+  <tr>
+    <td><b>BPDU Guard</b></td>
+    <td>Disables access ports that receive unexpected BPDU packets.</td>
+  </tr>
+  <tr>
+    <td><b>Root Guard</b></td>
+    <td>Prevents rogue switches from becoming the STP root bridge.</td>
+  </tr>
+  <tr>
+    <td><b>Loop Guard</b></td>
+    <td>Protects against switching loops caused by link failures.</td>
+  </tr>
+  <tr>
+    <td><b>Rate Limiting</b></td>
+    <td>Reduces DHCP flooding and Layer 2 DoS attempts.</td>
+  </tr>
+  <tr>
+    <td><b>RFC1918 ACLs</b></td>
+    <td>Blocks spoofed private IP traffic from untrusted interfaces.</td>
+  </tr>
+  <tr>
+    <td><b>OSPF Authentication</b></td>
+    <td>Protects routing updates from tampering and route injection.</td>
+  </tr>
+  <tr>
+    <td><b>SSH v2</b></td>
+    <td>Secures remote management access.</td>
+  </tr>
+</table>
 
 These controls protect both the access layer and routing/control plane.
 
@@ -126,23 +211,61 @@ These controls protect both the access layer and routing/control plane.
 
 A dual-hub DMVPN architecture was implemented to securely connect the headquarters with branch offices.
 
-| Site | Role |
-|---|---|
-| HQ-Hub1 | Primary DMVPN Hub |
-| HQ-Hub2 | Secondary DMVPN Hub |
-| Dubai | Spoke Router |
-| Riyadh | Spoke Router |
-| Doha | Spoke Router |
+<table width="100%">
+  <tr>
+    <th>Site</th>
+    <th>Role</th>
+  </tr>
+  <tr>
+    <td><b>HQ-Hub1</b></td>
+    <td>Primary DMVPN Hub</td>
+  </tr>
+  <tr>
+    <td><b>HQ-Hub2</b></td>
+    <td>Secondary DMVPN Hub</td>
+  </tr>
+  <tr>
+    <td><b>Dubai</b></td>
+    <td>Spoke Router</td>
+  </tr>
+  <tr>
+    <td><b>Riyadh</b></td>
+    <td>Spoke Router</td>
+  </tr>
+  <tr>
+    <td><b>Doha</b></td>
+    <td>Spoke Router</td>
+  </tr>
+</table>
 
 The DMVPN design provides encrypted branch communication, dynamic spoke registration using NHRP, EIGRP routing over the tunnel, and high availability using two HQ hubs.
 
-| Feature | Purpose |
-|---|---|
-| DMVPN | Provides scalable branch-to-branch connectivity |
-| IPsec | Encrypts traffic between sites |
-| NHRP | Allows spokes to register with the hubs |
-| EIGRP | Provides dynamic routing across the DMVPN tunnel |
-| Dual-Hub Design | Provides redundancy and failover |
+<table width="100%">
+  <tr>
+    <th>Feature</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><b>DMVPN</b></td>
+    <td>Provides scalable branch-to-branch connectivity.</td>
+  </tr>
+  <tr>
+    <td><b>IPsec</b></td>
+    <td>Encrypts traffic between sites.</td>
+  </tr>
+  <tr>
+    <td><b>NHRP</b></td>
+    <td>Allows spokes to register with the hubs.</td>
+  </tr>
+  <tr>
+    <td><b>EIGRP</b></td>
+    <td>Provides dynamic routing across the DMVPN tunnel.</td>
+  </tr>
+  <tr>
+    <td><b>Dual-Hub Design</b></td>
+    <td>Provides redundancy and failover.</td>
+  </tr>
+</table>
 
 ![DMVPN Validation](images/dmvpn-validation.png)
 
@@ -152,13 +275,32 @@ The DMVPN design provides encrypted branch communication, dynamic spoke registra
 
 A Cisco IOS IPS device was deployed inline to inspect traffic and detect malicious activity before it reached internal network segments.
 
-| Threat Type | IPS Response |
-|---|---|
-| Port scans | Generate alerts |
-| TCP NULL scans | Alert and deny packets inline |
-| TCP SYN/FIN scans | Alert and deny packets inline |
-| Reconnaissance traffic | Detect suspicious scan behavior |
-| Policy violations | Log and alert for SOC visibility |
+<table width="100%">
+  <tr>
+    <th>Threat Type</th>
+    <th>IPS Response</th>
+  </tr>
+  <tr>
+    <td><b>Port scans</b></td>
+    <td>Generate alerts.</td>
+  </tr>
+  <tr>
+    <td><b>TCP NULL scans</b></td>
+    <td>Alert and deny packets inline.</td>
+  </tr>
+  <tr>
+    <td><b>TCP SYN/FIN scans</b></td>
+    <td>Alert and deny packets inline.</td>
+  </tr>
+  <tr>
+    <td><b>Reconnaissance traffic</b></td>
+    <td>Detect suspicious scan behavior.</td>
+  </tr>
+  <tr>
+    <td><b>Policy violations</b></td>
+    <td>Log and alert for SOC visibility.</td>
+  </tr>
+</table>
 
 The IPS validation included scan activity, alert generation, and packet drop evidence.
 
@@ -170,15 +312,40 @@ The IPS validation included scan activity, alert generation, and packet drop evi
 
 Cisco ASA firewalls were configured using Active/Active failover and multi-context mode. The firewalls controlled traffic between the Outside, Inside, DMZ, and RND zones.
 
-| Firewall Feature | Purpose |
-|---|---|
-| Active/Active Failover | Provides high availability |
-| Multi-Context Mode | Separates firewall contexts and policies |
-| Security Zones | Controls traffic between Outside, Inside, DMZ, and RND |
-| Static NAT | Publishes selected DMZ services |
-| Dynamic PAT | Allows internal users to access outside networks |
-| ACLs | Controls allowed and denied traffic |
-| Object Groups | Simplifies firewall policy management |
+<table width="100%">
+  <tr>
+    <th>Firewall Feature</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><b>Active/Active Failover</b></td>
+    <td>Provides high availability.</td>
+  </tr>
+  <tr>
+    <td><b>Multi-Context Mode</b></td>
+    <td>Separates firewall contexts and policies.</td>
+  </tr>
+  <tr>
+    <td><b>Security Zones</b></td>
+    <td>Controls traffic between Outside, Inside, DMZ, and RND.</td>
+  </tr>
+  <tr>
+    <td><b>Static NAT</b></td>
+    <td>Publishes selected DMZ services.</td>
+  </tr>
+  <tr>
+    <td><b>Dynamic PAT</b></td>
+    <td>Allows internal users to access outside networks.</td>
+  </tr>
+  <tr>
+    <td><b>ACLs</b></td>
+    <td>Controls allowed and denied traffic.</td>
+  </tr>
+  <tr>
+    <td><b>Object Groups</b></td>
+    <td>Simplifies firewall policy management.</td>
+  </tr>
+</table>
 
 Failover was tested by shutting down the active firewall and confirming that the standby firewall took over successfully.
 
@@ -190,11 +357,24 @@ Failover was tested by shutting down the active firewall and confirming that the
 
 AAA and RBAC were implemented to control administrative access using centralized authentication and role-based permissions.
 
-| Role | Access Level |
-|---|---|
-| AdminView | Full administrative access |
-| AuditView | Read-only auditing access |
-| UserView | Limited user-level access |
+<table width="100%">
+  <tr>
+    <th>Role</th>
+    <th>Access Level</th>
+  </tr>
+  <tr>
+    <td><b>AdminView</b></td>
+    <td>Full administrative access.</td>
+  </tr>
+  <tr>
+    <td><b>AuditView</b></td>
+    <td>Read-only auditing access.</td>
+  </tr>
+  <tr>
+    <td><b>UserView</b></td>
+    <td>Limited user-level access.</td>
+  </tr>
+</table>
 
 This ensures that each user only receives the permissions required for their role.
 
@@ -204,21 +384,64 @@ This ensures that each user only receives the permissions required for their rol
 
 ## Validation Summary
 
-| Validation Area | Result |
-|---|---|
-| VLAN segmentation | Verified |
-| Port security | Verified |
-| DHCP Snooping | Verified |
-| Dynamic ARP Inspection | Verified |
-| BPDU Guard | Verified |
-| Root Guard | Verified |
-| DMVPN connectivity | Verified |
-| NHRP registration | Verified |
-| IPS alerts | Verified |
-| IPS packet drops | Verified |
-| ASA failover | Verified |
-| NAT and ACL enforcement | Verified |
-| AAA/RBAC login tests | Verified |
+<table width="100%">
+  <tr>
+    <th>Validation Area</th>
+    <th>Result</th>
+  </tr>
+  <tr>
+    <td>VLAN segmentation</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>Port security</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>DHCP Snooping</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>Dynamic ARP Inspection</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>BPDU Guard</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>Root Guard</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>DMVPN connectivity</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>NHRP registration</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>IPS alerts</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>IPS packet drops</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>ASA failover</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>NAT and ACL enforcement</td>
+    <td>✅ Verified</td>
+  </tr>
+  <tr>
+    <td>AAA/RBAC login tests</td>
+    <td>✅ Verified</td>
+  </tr>
+</table>
 
 ---
 
@@ -239,3 +462,4 @@ secure-enterprise-network-project/
     ├── ips-alerts.png
     ├── asa-failover.png
     └── aaa-rbac-validation.png
+```
