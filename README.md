@@ -8,13 +8,17 @@
 
 <div align="center">
 
-# 🛡️ Secure Enterprise Network Infrastructure
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0078D4&height=180&section=header&text=Secure%20Enterprise%20Network&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Defense-in-Depth%20Networking%20Security&descAlignY=55&descSize=18"/>
 
-### Defense-in-Depth Networking Security
+<br>
 
-![Status](https://img.shields.io/badge/Status-Completed-2ecc71?style=for-the-badge)
-![Course](https://img.shields.io/badge/Course-Defense--in--Depth%20Networking%20Security-0078D4?style=for-the-badge)
-![Environment](https://img.shields.io/badge/Environment-Academic%20Lab-6B4CFF?style=for-the-badge)
+<p>
+  <img src="https://img.shields.io/badge/VLAN-Segmentation-0078D4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/DMVPN-IPsec-005A9E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Cisco_IOS-IPS-1F6FEB?style=for-the-badge&logo=cisco&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ASA-Firewall_HA-004578?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/AAA%2FRBAC-Access_Control-003B73?style=for-the-badge"/>
+</p>
 
 </div>
 
