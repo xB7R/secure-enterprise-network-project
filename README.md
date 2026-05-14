@@ -7,8 +7,8 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=E94560&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORKING+SECURITY">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=E94560&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORKING+SECURITY" alt="Secure Enterprise Network Infrastructure Project"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=0078D4&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORKING+SECURITY">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=0078D4&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORKING+SECURITY" alt="Secure Enterprise Network Infrastructure Project"/>
 </picture>
 
 <br><br>
