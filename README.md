@@ -60,7 +60,9 @@ The network was designed to protect internal departments, management services, D
 
 The following topology shows the full enterprise network design, including the HQ hubs, branch routers, ISP connection, core layer, IPS device, ASA firewalls, DMZ, RND zone, and internal VLANs.
 
-![Network Topology](images/topology.png)
+<p align="center">
+  <img src="images/topology.png" alt="Network Topology" width="100%">
+</p>
 
 ---
 
