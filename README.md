@@ -5,6 +5,7 @@ A university group project for the **Defense-in-Depth Networking Security** cour
 The project includes VLAN segmentation, Layer 2 and Layer 3 security hardening, secure inter-branch connectivity using DMVPN with IPsec, Cisco IOS IPS deployment, ASA firewall high availability, NAT, ACLs, and AAA/RBAC access control.
 
 
+
 ---
 
 ## Table of Contents
@@ -27,7 +28,7 @@ The project includes VLAN segmentation, Layer 2 and Layer 3 security hardening, 
 
 This repository presents a university group project completed for the **Defense-in-Depth Networking Security** course. The project focuses on building and validating a secure enterprise network infrastructure using multiple layers of protection.
 
-The network was designed to protect internal departments, management services, DMZ services, branch communication, and sensitive internal zones. Instead of uploading the full PDF report, this repository explains the project using the topology diagram, configuration screenshots, validation screenshots, and short descriptions of the implemented security controls.
+The network was designed to protect internal departments, management services, DMZ services, branch communication, and sensitive internal zones. This repository explains the project using the topology diagram, configuration screenshots, validation screenshots, and short descriptions of the implemented security controls.
 
 ---
 
