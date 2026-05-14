@@ -3,7 +3,6 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=E94560&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORK+SECURITY;UNIVERSITY+GROUP+PROJECT">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=E94560&center=true&vCenter=true&width=800&lines=SECURE+ENTERPRISE+NETWORK;DEFENSE-IN-DEPTH+NETWORK+SECURITY;UNIVERSITY+GROUP+PROJECT" alt="Secure Enterprise Network Infrastructure Project"/>
 </picture>
 
