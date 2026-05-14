@@ -1,6 +1,9 @@
 # Secure Enterprise Network Infrastructure Project
 
-A secure enterprise network infrastructure project based on Defense-in-Depth principles. The project includes VLAN segmentation, Layer 2 and Layer 3 security hardening, secure inter-branch connectivity using DMVPN with IPsec, Cisco IOS IPS deployment, ASA firewall high availability, NAT, ACLs, and AAA/RBAC access control.
+A university group project for the **Defense-in-Depth Networking Security** course. This project demonstrates the design and implementation of a secure enterprise network infrastructure using Defense-in-Depth principles.
+
+The project includes VLAN segmentation, Layer 2 and Layer 3 security hardening, secure inter-branch connectivity using DMVPN with IPsec, Cisco IOS IPS deployment, ASA firewall high availability, NAT, ACLs, and AAA/RBAC access control.
+
 
 ---
 
@@ -22,9 +25,9 @@ A secure enterprise network infrastructure project based on Defense-in-Depth pri
 
 ## Overview
 
-This repository explains the implementation of a secure enterprise network infrastructure using a Defense-in-Depth approach.
+This repository presents a university group project completed for the **Defense-in-Depth Networking Security** course. The project focuses on building and validating a secure enterprise network infrastructure using multiple layers of protection.
 
-The project was designed to protect internal departments, management services, DMZ services, branch communication, and sensitive internal zones. Instead of uploading the full PDF report, this repository presents the project using explanations, topology diagrams, configuration screenshots, and validation evidence.
+The network was designed to protect internal departments, management services, DMZ services, branch communication, and sensitive internal zones. Instead of uploading the full PDF report, this repository explains the project using the topology diagram, configuration screenshots, validation screenshots, and short descriptions of the implemented security controls.
 
 ---
 
